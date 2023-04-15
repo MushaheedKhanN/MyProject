@@ -1,0 +1,256 @@
+@import './imports';
+
+// fonts
+.mavenPro3237700 {
+  @include font($font-primary, 2rem, 2.3rem, 700, $text-primary);
+}
+
+.poppins1212400TextSecondary {
+  @include font($font-secondary, 0.75rem, 0.75rem, 400, $text-secondary);
+}
+
+.mavenPro3238700Charcoal {
+  @include font($font-primary, 2rem, 2rem, 700, $charcoal);
+}
+
+.poppins2842400Black {
+  @include font($font-secondary, 1.5rem, 2.5rem, 400, $black);
+}
+
+.poppins1616600White {
+  @include font($font-secondary, 1rem, 1rem, 600, $white !important);
+}
+
+.poppins1616500white {
+  @include font($font-secondary, 1rem, 1rem, 500, $white !important);
+}
+
+.mavenPro1621600PrimaryBlue {
+  @include font($font-secondary, 1rem, 1.25rem, 600, $primary-blue !important);
+}
+
+.poppins1624500PrimaryBlue {
+  @include font($font-secondary, 1rem, 1.5rem, 500, $primary-blue !important);
+}
+
+.poppins1616600Red {
+  @include font($font-secondary, 1rem, 1rem, 600, $errorRed !important);
+}
+
+.mavenPro1821600PrimaryBlue {
+  @include font($font-secondary, 1.1rem, 1.25rem, 600, $primary-blue !important);
+}
+
+.poppins1624500Charcoal {
+  @include font($font-secondary, 1rem, 1.5rem, 500, $charcoal);
+}
+
+.poppins1624600Charcoal {
+  @include font($font-secondary, 1rem, 1.5rem, 600, $charcoal);
+}
+
+.poppins1616600Black {
+  @include font($font-secondary, 1rem, 1rem, 600, $black !important);
+}
+
+.poppins2436600Charcoal {
+  @include font($font-secondary, 1.5rem, 2rem, 600, $charcoal);
+}
+
+.mavenPro1824600Charcoal {
+  @include font($font-primary, 1.12rem, 1.3rem, 600, $charcoal);
+}
+
+.poppins1624400Charcoal {
+  @include font($font-secondary, 1rem, 1.5rem, 400, $charcoal);
+}
+
+.poppins2030500Charcoal {
+  @include font($font-secondary, 1.25rem, 1.8rem, 500, $charcoal !important);
+}
+
+.poppins1624400Charcoal {
+  @include font($font-secondary, 1rem, 1.5rem, 400, $charcoal !important);
+}
+
+.poppins1824600Charcoal {
+  @include font($font-secondary, 1.1rem, 1.5rem, 600, $charcoal !important);
+}
+
+.poppins1827600Charcoal {
+  @include font($font-secondary, 1.1rem, 1.6rem, 600, $charcoal !important);
+}
+
+.poppins1832500Charcoal {
+  @include font($font-secondary, 1.1rem, 2rem, 500, $charcoal !important);
+}
+
+.poppins1616600Charcoal {
+  @include font($font-secondary, 1rem, 1rem, 600, $charcoal !important);
+}
+
+.mavenPro2024500White {
+  @include font($font-primary, 1.25rem, 1.5rem, 500, $white);
+}
+
+.poppins816400LightGray {
+  @include font($font-secondary, 0.85rem, 1rem, 400, $lightGray !important);
+}
+
+.poppins818400White {
+  @include font($font-secondary, 0.85rem, 1rem, 400, $white !important);
+}
+
+.mavenPro1821400White {
+  @include font($font-secondary, 1.1rem, 1.25rem, 400, $white !important);
+}
+
+.poppins2436400BlackishGreen {
+  @include font($font-secondary, 1.5rem, 2rem, 400, $blackish-green !important);
+}
+
+.poppins1624500BlackishGreen {
+  @include font($font-secondary, 1rem, 1.5rem, 500, $blackish-green !important);
+}
+
+.mavenPro1214500Green {
+  @include font($font-primary, 0.75rem, 0.8rem, 500, $green !important);
+}
+
+.mavenPro1214700BlackishGreen {
+  @include font($font-primary, 0.75rem, 0.8rem, 700, $blackish-green !important);
+}
+
+.poppins2030500BlackishGreen {
+  @include font($font-secondary, 1.2rem, 1.8rem, 500, $blackish-green !important);
+}
+
+.poppins1218500Charcoal {
+  @include font($font-secondary, 0.75rem, 1.1rem, 500, $charcoal !important);
+}
+
+.poppins1620600PrimaryBlue {
+  @include font($font-secondary, 1rem, 1.5rem, 600, $primary-blue !important);
+}
+
+.mavenPro2430600Charcoal {
+  @include font($font-primary, 1.5rem, 1.8rem, 600, $charcoal !important);
+}
+
+.mavenPro1620400CharCoal {
+  @include font($font-primary, 1rem, 1.25rem, 400, $charcoal !important);
+}
+
+.mavenPro2024600Charcoal {
+  @include font($font-primary, 1.25rem, 1.5rem, 600, $charcoal !important);
+}
+
+.mavenPro1821600Charcoal {
+  @include font($font-secondary, 1.1rem, 1.25rem, 600, $charcoal);
+}
+
+.poppins1816600PrimaryPurple {
+  @include font($font-secondary, 1.1rem, 1rem, 600, $primary-purple !important);
+}
+
+.poppins1421400Charcoal {
+  @include font($font-secondary, 00.8rem, 1.3rem, 400, $charcoal !important);
+}
+
+.poppins1816600PrimaryBlue {
+  @include font($font-secondary, 1.1rem, 1rem, 600, $primary-blue !important);
+}
+
+.mavenPro1821600Charcoal {
+  @include font($font-primary, 1.1rem, 1.3rem, 600, $charcoal !important);
+}
+
+// FONT FAMILIES
+
+.font_primary {
+  font-family: $font-primary;
+}
+
+.font_secondary {
+  font-family: $font-secondary;
+}
+
+// FONT WEIGHTS
+.fw_400 {
+  font-weight: 400;
+}
+
+.fw_500 {
+  font-weight: 500;
+}
+
+.fw_600 {
+  font-weight: 600;
+}
+
+.fw_700 {
+  font-weight: 700;
+}
+
+// FONT SIZES
+.fs_14 {
+  font-size: 0.875rem;
+}
+
+.fs_16 {
+  font-size: 1rem;
+}
+
+.fs_18 {
+  font-size: 1.1rem;
+}
+
+.fs_20 {
+  font-size: 1.25rem;
+}
+
+.fs_22 {
+  font-size: 1.3rem;
+}
+
+.fs_24 {
+  font-size: 1.5rem;
+}
+
+.fs_28 {
+  font-size: 1.75rem;
+}
+
+.fs_80 {
+  font-size: 5rem;
+}
+
+// LINE HEIGHTS
+.lh_16 {
+  line-height: 1rem;
+}
+
+.lh_18 {
+  line-height: 1.1rem;
+}
+
+.lh_20 {
+  line-height: 1.25rem;
+}
+
+.lh_24 {
+  line-height: 1.5rem;
+}
+
+.lh_32 {
+  line-height: 2rem;
+}
+
+// TEXT PLACEMENT
+.text_right {
+  text-align: right;
+}
+
+.text_center {
+  text-align: center;
+}

@@ -1,0 +1,89 @@
+@import './imports';
+
+// COLORS
+.white {
+  color: $white;
+}
+
+.black {
+  color: $black;
+}
+
+.charcoal {
+  color: $charcoal;
+}
+
+.primary_purple {
+  color: $primary-purple;
+}
+
+.light_gray {
+  color: $lightGray;
+}
+
+.orange {
+  color: $orange;
+}
+
+.primary_blue {
+  color: $primary-blue;
+}
+
+.primary_blackish_green {
+  color: $blackish-green;
+}
+
+.text_secondary {
+  color: $text-secondary;
+}
+
+.dark_grey {
+  color: $dark-grey;
+}
+
+.green {
+  color: $green;
+}
+
+// BACKGROUND COLORS
+.bg_white {
+  background-color: $white;
+}
+
+.bg_gray {
+  background-color: $text-secondary;
+}
+
+.bg_primary_blue {
+  background-color: $primary-blue;
+}
+
+.bg_light_grey_100 {
+  background-color: $light-grey-100;
+}
+
+.bg_primary_blue_shade {
+  background-color: $primary-blue-shade;
+}
+
+.bg_separator_grey {
+  background-color: $separator-grey;
+}
+
+// LINEAR GRADIENTS
+
+.lg_gold {
+  background: linear-gradient(90deg, #a27c09 0%, #cea117 22.4%, #efc030 51.04%, #a77d30 100%);
+}
+
+.lg_purple {
+  background: linear-gradient(90deg, #160a50 0%, #9719a8 24.48%, #410848 51.04%, #160a50 100%);
+}
+
+.lg_black {
+  background: linear-gradient(90deg, #070707 0%, #828282 24.48%, #0e0f10 51.04%, #030504 100%);
+}
+
+.lg_green {
+  background: linear-gradient(90deg, #000000 0%, #08833d 24.48%, #084e08 51.04%, #000000 100%);
+}

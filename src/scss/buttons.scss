@@ -1,0 +1,74 @@
+@import './imports';
+
+.primary_btn_filled {
+  @include btn(max-content,
+    1rem 2.5rem,
+    $primary-blue,
+    none,
+    0.5rem 0 0.5rem 0.5rem,
+    0 0.15rem 0.625rem rgba(0, 0, 0, 0.1));
+}
+
+.purple_btn_filled {
+  @include btn(max-content,
+    1rem 2.5rem,
+    $primary,
+    none,
+    0.5rem 0 0.5rem 0.5rem,
+    0px 2px 10px rgba(0, 0, 0, 0.1));
+}
+
+.charcoal_btn_outlined {
+  @include btn(max-content,
+    0.75rem 2.5rem,
+    $white,
+    1px solid $charcoal,
+    0.5rem 0 0.5rem 0.5rem,
+    0px 2px 10px rgba(0, 0, 0, 0.1));
+}
+
+.green_btn_filled {
+  @include btn(max-content,
+    1rem 2.5rem,
+    $green,
+    none,
+    0.5rem 0 0.5rem 0.5rem,
+    0 0.15rem 0.625rem rgba(0, 0, 0, 0.1));
+}
+
+.red_btn_outlined {
+  @include btn(max-content,
+    1rem 1.5rem,
+    $white,
+    1px solid $errorRed,
+    0.5rem 0 0.5rem 0.5rem,
+    0px 2px 10px rgba(0, 0, 0, 0.1));
+}
+
+.gold_btn_filled {
+  @include btn(max-content,
+    1rem 2.5rem,
+    $gold,
+    none,
+    0.5rem 0 0.5rem 0.5rem,
+    0 0.15rem 0.625rem rgba(0, 0, 0, 0.1));
+}
+
+
+.danger_btn_filled {
+  @include btn(max-content,
+    1rem 2.5rem,
+    $errorRed,
+    none,
+    0.5rem 0 0.5rem 0.5rem,
+    0 0.15rem 0.625rem rgba(0, 0, 0, 0.1));
+}
+
+.purple_btn_filled_sm {
+  @include btn(max-content,
+    0.7rem 1rem,
+    $primary,
+    none,
+    0.5rem 0 0.5rem 0.5rem,
+    0px 2px 10px rgba(0, 0, 0, 0.1));
+}

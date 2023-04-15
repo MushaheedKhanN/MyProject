@@ -1,0 +1,42 @@
+// Maven pro
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
+// Poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// Prefix for :root CSS variables
+$variable-prefix: vz-;
+
+// Fonts
+$font-primary: 'Maven pro', sans-serif;
+$font-secondary: 'Poppins', sans-serif;
+
+// Colors
+$primary: rgba(66, 17, 51, 1);
+$primary-blue: rgba(36, 107, 253, 1);
+$white: rgba(255, 255, 255, 1);
+$text-primary: rgba(51, 51, 51, 1);
+$text-secondary: rgba(102, 102, 102, 1);
+$charcoal: rgba(51, 51, 51, 1);
+$blackish-green: rgba(17, 34, 17, 1);
+$separator-grey: rgba(225, 225, 223, 1);
+$black: rgba(0, 0, 0, 1);
+$green: rgba(0, 166, 0, 1);
+$main-gradient-color: linear-gradient(90deg, #430f18 0%, #41124e 100%);
+$lightGray: rgba(255, 255, 255, 0.65);
+$primary-cta: rgba(147, 108, 65, 1);
+$gold: rgba(147, 108, 65, 1);
+$lightGray: rgba(255, 255, 255, 0.65);
+$errorRed: rgba(255, 0, 0, 1);
+$primary-purple: rgba(92, 15, 217, 1);
+$primary-blue-shade: rgba(217, 237, 247, 1);
+$light-grey-100: rgba(245, 245, 245, 1);
+$orange: rgba(255, 99, 0, 1);
+$dark-grey: rgba(102, 102, 102, 1);
+
+// media
+$desktop: 1020px;
+$mobile: 500px;
+
+// Max Width
+$maxDesktop: 1440px;
